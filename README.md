@@ -1,4 +1,4 @@
-Handwritten Digit Classification using ANN, Deep ANN, and CNN (MNIST)
+Comparative analysis of ANN,DEEP BPN and CNN for MNIST digit recognition
 
 Project Overview
 
@@ -11,7 +11,6 @@ The models implemented are:
 
 The project includes data preprocessing, model training, and evaluation using multiple performance metrics.
 
-⸻
 
 Dataset
 
@@ -27,7 +26,6 @@ Dataset Characteristics
 
 The dataset is loaded directly from TensorFlow/Keras.
 
-⸻
 
 Data Preprocessing
 
@@ -41,7 +39,6 @@ The following preprocessing steps were applied:
 (28, 28) → (28, 28, 1)
 to include a channel dimension for convolution operations.
 
-⸻
 
 Models Implemented
 
@@ -58,7 +55,6 @@ Optimizer: Adam
 Loss Function: Sparse Categorical Crossentropy
 Metric: Accuracy
 
-⸻
 
 2. Multi Hidden Layer BPN
 
@@ -77,7 +73,6 @@ Metric: Accuracy
 
 This architecture allows the network to learn more complex feature representations compared to the single hidden layer model.
 
-⸻
 
 3. Convolutional Neural Network (CNN)
 
@@ -94,7 +89,6 @@ Input (28×28×1)
 
 CNN preserves spatial relationships in the image and is highly effective for image-based tasks.
 
-⸻
 
 Model Training
 
@@ -103,7 +97,6 @@ All models were trained using:
 	•	Batch Size: 128 (for deeper models)
 	•	Optimizer: Adam
 
-⸻
 
 Evaluation Metrics
 
